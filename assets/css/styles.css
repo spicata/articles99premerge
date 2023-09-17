@@ -1,6 +1,6 @@
 html {
-    background-color: #24273a;
-    color: #cad3f5;
+    background-color: #dad1bc;
+    color: #211926;
     height: fit-content;
     font-family: sans-serif;
     padding: 10px;
@@ -13,22 +13,20 @@ body {
 }
 
 a {
-    color: #cad3f5;
+    color: #211926;
 }
 
 a:hover {
-    animation: rainbow 3s infinite;
-}
-
-@keyframes rainbow {
-    0%{color: red;}
-    20%{color: orange;}
-    40%{color: yellow;}
-    60%{color: lime;}
-    80%{color: cyan;}
-    100%{color: red;}
+    color: #b19869;
 }
 
 .no-space {
     margin: 0;
+}
+
+article {
+    background-color: #e2e0d2;
+    border: 3px solid #211926;
+    border-top: 1.5em solid #211926;
+    padding: 1em;
 }
